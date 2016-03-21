@@ -2,66 +2,74 @@
 	<head>
 		<meta charset='utf-8'>
 		<style>
+			.specifier{
+				font-weight: bold;
+			}
+
+			table{
+				width: 100%;
+				font-size: inherit;
+				font-weight: inherit;
+			}
+			td{
+				vertical-align: center;
+			}
+			#page-title{
+				font-weight: bolder;
+				font-size: 250%;
+			}
+			.section-title{
+				font-weight: bold;
+				font-size: larger;
+				margin-bottom: 10px;
+			}
+			.section-content{
+				text-align: justify;
+			}
+			.sep{
+				height: 10px;
+			}
+			section{
+				margin-bottom: 30px;
+			}
+			.nb{
+				font-size: small;
+				font-style: italic;
+			}
+			.place{
+				font-style: italic;
+			}
+			th{
+				white-space: nowrap;
+				text-align: left;
+			}
+			#contact-card{
+				margin-left: 40px;
+				margin-bottom: 40px;
+			}
+			nav{
+				text-align: center;
+			}
+			nav>ul>li{
+				list-style: none;
+				display: inline;
+			}
+			header{
+				text-align: center;
+				margin-bottom: 50px;
+			}
+
+
 			@media screen{
-				nav{
-					text-align: center;
-				}
 				body{
 					font-family: monospace;
 					font-size: 13;
 				}
-				table{
-					font-size: inherit;
-					font-weight: inherit;
-				}
 				th{
-					white-space: nowrap;
-					text-align: left;
 					vertical-align: center;
-				}
-				td{
-					vertical-align: center;
-				}
-				header{
-					text-align: center;
-					margin-bottom: 50px;
-				}
-				nav>ul>li{
-					list-style: none;
-					display: inline;
-				}
-				#page-title{
-					font-weight: bolder;
-					font-size: 250%;
 				}
 				#contact-card{
 					float: right;
-					margin-left: 40px;
-					margin-bottom: 40px;
-				}
-				.section-title{
-					font-weight: bold;
-					font-size: larger;
-					margin-bottom: 10px;
-				}
-				.section-content{
-					text-align: justify;
-				}
-				.sep{
-					height: 10px;
-				}
-				/*.job-achv>td{
-					padding-bottom: 30px;
-				}*/
-				section{
-					margin-bottom: 30px;
-				}
-				.nb{
-					font-size: small;
-					font-style: italic;
-				}
-				.place{
-					font-style: italic;
 				}
 			}
 
@@ -69,58 +77,12 @@
 				nav{
 					display: none;
 				}
-				table{
-					font-size: inherit;
-					font-weight: inherit;
-				}
 				th{
-					white-space: nowrap;
-					text-align: left;
 					vertical-align: top;
-				}
-				td{
-					vertical-align: center;
-				}
-				#title{
-					text-align: center;
-					margin-bottom: 50px;
-				}
-				#page-title{
-					font-weight: bolder;
-					font-size: 250%;
-				}
-				#contact-card{
-					/*float: right;*/
-					margin-left: 40px;
-					margin-bottom: 40px;
-				}
-				.section-title{
-					font-weight: bold;
-					font-size: larger;
-					margin-bottom: 10px;
-				}
-				.section-content{
-					text-align: justify;
-				}
-				.sep{
-					height: 10px;
-				}
-				section{
-					margin-bottom: 30px;
 				}
 
 				#tech-skills{
 					page-break-before: always;
-				}
-				/*#education{
-					page-break-before: always;
-				}*/
-				.nb{
-					font-size: small;
-					font-style: italic;
-				}
-				.place{
-					font-style: italic;
 				}
 			}
 		</style>
@@ -129,7 +91,7 @@
 	
 	<body>
 		<header>
-			<div id='page-title'>Ahmed M.Abdulshafy</div>
+			<div id='page-title'>Ahmed M.A. Ramadan</div>
 			<div id='certs'>CEH, CHFI, GWAPT, CFS, CCNA</div>
 		</header>
 
@@ -147,19 +109,16 @@
 
 		<div id='contact-card'>
 			<table>
-				<tr><th>Mobile</th><td>0020 100 978 1533</td></tr>
+				<tr><th>Mobile</th><td>+27 079 8624 963</td></tr>
 				<tr><th>Email</th><td>abdulshafy@gmail.com</td></tr>
-				<tr><th>Landline</th><td>0020 222 362 407</td></tr>
-				<tr><th>Address</th><td>Egypt, Giza, Hadayek Alahram, 455 Street 17, Zone A</td></tr>
+				<tr><th>Location</th><td>Cape Town, South Africa</td></tr>
 			</table>
 		</div>
 
 		<section id='summary'>
 			<div class='section-title'>Brief</div>
 			<div class='section-content'>
-				After graduation in the faculty of Engineering -Computer and Systems major- I have worked as a software developer, a network administrator and a security administrator.
-				I am currently interested in developing and customizing network and security tools to increase the visibility and the manageability of the network.
-				I am using python exclusively for more than 6 years now to work on my tools. I have worked before on C++, PHP and Java.
+				I'm interested in developing automation and network tools. Using Python for most of my work.
 			</div>
 		</section>
 
@@ -169,7 +128,23 @@
 				<table id='jobs'>
 
 
-					<tr class="job-title"><th colspan='2'>Senior Network/Security Engineer at Suez Canal Bank, Cairo-Egypt June, 2008 => current</th></tr>
+					<tr class="job-title"><th colspan='2'>Network Support Engineer at Amazon, Cape Town-South Africa November, 2015 => current</th></tr>
+					<tr class='job-resp'><th>Role Description</th>
+						<td>
+							<ul>
+								<li>Troubleshoot application deployments, recreate customer issues, build proof of concept applications.</li>
+								<li>Collaborate and help build utilities, tools and documentation for internal use that enable AWS Engineers to operate safely at high speed and wide scale. </li>
+								<li>Act as a second level EC2 networking support for AWS customers.</li>
+								<li>Automate operations of internal teams to decrease operational burden.</li>
+							</ul>
+						</td>
+					</tr>
+
+
+					<tr class='sep'><td colspan='2'></td></tr>
+
+
+					<tr class="job-title"><th colspan='2'>Senior Network/Security Engineer at Suez Canal Bank, Cairo-Egypt June, 2008 => October, 2015</th></tr>
 					<tr class='job-resp'><th>Role Description</th>
 						<td>
 							<ul>
@@ -330,9 +305,9 @@
 			<div class='section-title'>Languages</div>
 			<div class='section-content'>
 				<ul>
-					<li>Arabic: Mother tongue</li>
-					<li>English: Fluent</li>
-					<li>French: Intermediate (CEFR: B1)</li>
+					<li><span class='specifier'>Arabic --</span> Native</li>
+					<li><span class='specifier'>English --</span> Fluent</li>
+					<li><span class='specifier'>French --</span> Intermediate (CEFR: B1)</li>
 				</ul>
 			</div>
 		</section>
@@ -346,19 +321,18 @@
 					<tr><th>Operating Systems</th>
 						<td>
 							<ul>
-								<li>Advanced user on Linux and Mac OSX.</li>
-								<li>Administration experience on Linux.</li>
+								<li><span class='specifier'>Linux --</span> Advanced user, moderate administrator.</li>
+								<li><span class='specifier'>OSX --</span> Advanced user.</li>
 							</ul>
 						</td>
 					</tr>
 
-					<tr><th>Development</th>
+					<tr><th>Programming</th>
 						<td>
 							<ul>
-								<li>Experience using Python, Django, C++, PHP, Javascript, JQuery.</li>
-								<li>Basic experience with Google App Engine development.</li>
-								<li>Experience developing against MySql, SQLite, Microsft Access, Oracle 10g and Google NDB datastore.</li>
-								<li>Debugging on GDB, Python PDB, Microsoft Visual Studio.</li>
+								<li><span class='specifier'>Languages --</span> Python, C/C++, Javascript.</li>
+								<li><span class='specifier'>Frameworks/SDK's --</span> boto, Django, Google App Engine SDK.</li>
+								<li><span class='specifier'>Debuggers --</span> GDB, Python PDB.</li>
 							</ul>
 						</td>
 					</tr>
@@ -366,10 +340,10 @@
 					<tr><th>Networking</th>
 						<td>
 							<ul>
-								<li>Experience with Cisco LAN Switches, Cisco 6500 Core Switch, Cisco Routers (2800, 2900, 7200).</li>
-								<li>Experience with EIGRP routing protocol.</li>
-								<li>Experience with VTP, STP.</li>
-								<li>Experience with some network management and monitoring products (Cisco Works 2000, Cisco Prime Infrastructure, Zabbix, ManageEngine Netflow Analyzer).</li>
+								<li><span class='specifier'>Hardware --</span> Cisco LAN Switches, Cisco 6500 Core Switch, Cisco Routers (2800, 2900, 7200).</li>
+								<li><span class='specifier'>Control Plane --</span> VTP, STP, EIGRP.</li>
+								<li><span class='specifier'>Management/Monitoring --</span> Cisco Works 2000, Cisco Prime Infrastructure, Zabbix, ManageEngine Netflow Analyzer.</li>
+								<li><span class='specifier'>Data Plane --</span> ARP, DHCP, IP, TCP, UDP, HTTP, DNS.</li>
 							</ul>
 						</td>
 					</tr>
@@ -377,11 +351,9 @@
 					<tr><th>Security</th>
 						<td>
 							<ul>
-								<li>Experinece with Mcafee Stonegate Firewall.</li>
-								<li>Experience with Palo Alto NGFW.</li>
-								<li>Experience with Cisco Firewalls (FWSM, PIX) and Cisco VPN Concentrator 3000.</li>
-								<li>Experience implementing site-to-site IPSEC VPN on Cisco routers.</li>
-								<li>Experience with some security software products and tools (nmap, Splunk, Nessus, Metasploit Framework).</li>
+								<li><span class='specifier'>Hardware --</span> Mcafee Stonegate Firewall, Palo Alto NGFW, Cisco Firewalls (FWSM, PIX), Cisco VPN Concentrator 3000.</li>
+								<li><span class='specifier'>Technologies --</span> IPSEC VPN's, SSL.</li>
+								<li><span class='specifier'>Software/Tools --</span> nmap, openssl, Splunk, Nessus, Metasploit Framework.</li>
 							</ul>
 						</td>
 					</tr>
