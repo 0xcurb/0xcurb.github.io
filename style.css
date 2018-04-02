@@ -73,6 +73,13 @@ nav>ul{
 	display: inline;
 }
 
+
+#printer-friendly{
+    font-size: small;
+    font-style: italic;
+    float: right;
+}
+
 header{
 	text-align: center;
 	margin-bottom: 50px;
@@ -102,6 +109,10 @@ header{
 	nav{
 		display: none;
 	}
+
+    #printer-friendly{
+        display: none;
+    }
 
 	th{
 		vertical-align: top;
