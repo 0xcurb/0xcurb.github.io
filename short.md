@@ -1,12 +1,3 @@
-<html>
-<head>
-<meta charset='utf-8'>
-<link rel="stylesheet" href="style.css">
-<title>Ahmed Ramadan-Brief CV</title>
-</head>
-
-
-<body>
 <header>
 <div id='page-title'>{{ site.data.info.name }}</div>
 <div id='certs'>CEH, CHFI, GWAPT, CFS, CCNA</div>
@@ -179,7 +170,3 @@ Bachelor of Science, Ain Shams University in Cairo-Egypt, faculty of Engineering
 </table>
 </div>
 </section>
-
-
-</body>
-</html>
