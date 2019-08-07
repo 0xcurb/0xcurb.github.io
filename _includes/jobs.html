@@ -1,6 +1,11 @@
-{% assign jobs = site.data.jobs | values | sort: 'offset' %}
+{% assign job_hashes = site.data.jobs %}
+{% assign job_vals = "" | split: "," %}
+{% for job in site.data.jobs %}
+{% assign job_vals = job_vals | push job[1] %}
+{% endfor %}
+
 <table id='jobs'>
-  {% for job in jobs %}
+  {% for job in job_vals %}
   <tr class="job-title"><th colspan='2'>{{job.title}} at {{job.company}}, {{job.location}} {{job.start}} => {{job.end}}</th></tr>
   {% endfor %}
 </table>
