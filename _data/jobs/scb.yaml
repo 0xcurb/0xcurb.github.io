@@ -1,0 +1,13 @@
+title: Network/Security Engineer
+company: Suez Canal Bank
+location: Cairo-Egypt
+start: June, 2008
+end: October, 2015
+description: I was part of the team that manages the network and security infrastructure for the bank.
+details:
+  - Worked on the design of the network and security infrastructure.
+  - Ran internal training for IT staff to spread the knowledge in the networking and security fields.
+  - Deployed, customised and extended open source software tools to document and monitor infrastructure.
+  - Wrote a few tools to automate processes like discovering devices, backing them up and perform config auditing.
+  - Introduced virtualisation into the bank's infrastructure which eliminated a great deal of provisioning-related delays.
+  - Unified a few processes and developed new standards, configuration templates and runbooks.
