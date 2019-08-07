@@ -2,13 +2,7 @@
 layout: default
 title: CV
 ---
-<header>
-	<div id='page-title'>{{ site.data.info.name }}</div>
-	<div id='certs'>CEH, CHFI, GWAPT, CFS, CCNA</div>
-	<div id="online-version">(An up-to-date version of this CV can be found online at <a href="https://0xcurb.github.io">https://0xcurb.github.io</a>)</div>
-	<div id="printer-friendly">* This page is printer-friendly</div>
-</header>
-
+{% include cv-header.html %}
 {% include contact-card.html %}
 {% include cv-summary.html %}
 
