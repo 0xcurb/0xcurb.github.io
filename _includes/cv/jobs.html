@@ -1,6 +1,6 @@
-{% assign jobs = site.data.jobs | sort: 'offset' %}
 <table id='jobs'>
-  {% for job in jobs %}
-  <tr class="job-title"><th colspan='2'>{{job.title}} at {{job.company}}, {{job.location}} {{job.start}} => {{job.end}}</th></tr>
-  {% endfor %}
+{% for job_pair in site.data.jobs %}
+{% assign job = job_pair[1] %}
+  <tr class="job-title"><th colspan='2'>{{ job.title }} at {{ job.company }}, {{ job.location }} {{ job.start }} => {{ job.end }}</th></tr>
+{% endfor %}
 </table>
