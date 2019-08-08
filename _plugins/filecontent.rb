@@ -1,7 +1,7 @@
 module Jekyll
   module FileContentFilter
     def filecontent(input)
-      input[1]
+      input.values
     end
   end
 end
