@@ -11,8 +11,7 @@
   <tr class="job-title">
     <th colspan='2'>{{ job.title }} at {{ job.company }}, {{ job.location }} {{ job.start }} => {{ job.end }}</th>
   </tr>
-  <tr class='job-resp'>
-    <td>{{ job.description }}</td>
-  </tr>
+  <tr class='job-resp'><td>{{ job.description }}</td></tr>
+  <tr class='sep'><td></td></tr>
 {% endfor %}
 </table>
