@@ -2,7 +2,7 @@
 layout: default
 title: Detailed CV
 ---
-{% include cv-header.html %}
+{% include cv/header.html %}
 <nav id='toc'>
   <ul>
     <li>[</li>
@@ -14,8 +14,8 @@ title: Detailed CV
     <li>]</li>
   </ul>
 </nav>
-{% include contact-card.html %}
-{% include cv-summary.html %}
+{% include cv/contact.html %}
+{% include cv/summary.html %}
 
 <section id='experience'>
   <div class='section-title'>Experience</div>
@@ -165,12 +165,7 @@ title: Detailed CV
 </section>
 
 
-<section id='education'>
-  <div class='section-title'>Education</div>
-  <div class='section-content'>
-    Bachelor of Science, Ain Shams University in Cairo-Egypt, faculty of Engineering — Computer and Systems Engineering, 2005 (Grade: Good).
-  </div>
-</section>
+{% include cv/education.html %}
 
 
 <section id='training'>
@@ -214,60 +209,5 @@ title: Detailed CV
 
 
 
-<section id='languages'>
-  <div class='section-title'>Languages</div>
-  <div class='section-content'>
-    <ul>
-      <li><span class='specifier'>Arabic --</span> Native</li>
-      <li><span class='specifier'>English --</span> Fluent</li>
-    </ul>
-  </div>
-</section>
-
-
-
-<section id='tech-skills'>
-  <div class='section-title'>Technical Qualifications</div>
-  <div class='section-content'>
-    <table id='skills'>
-      <tr><th>Operating Systems</th>
-        <td>
-          <ul>
-            <li><span class='specifier'>Linux --</span> Advanced user, moderate administrator.</li>
-            <li><span class='specifier'>OSX --</span> Advanced user.</li>
-          </ul>
-        </td>
-      </tr>
-
-      <tr><th>Programming</th>
-        <td>
-          <ul>
-            <li><span class='specifier'>Languages --</span> Python, Ruby, Bash, C/C++, Javascript.</li>
-            <li><span class='specifier'>Frameworks/SDK's --</span> boto, Django, Google App Engine SDK.</li>
-          </ul>
-        </td>
-      </tr>
-
-      <tr><th>Networking</th>
-        <td>
-          <ul>
-            <li><span class='specifier'>Hardware --</span> Cisco LAN Switches, Cisco 6500 Core Switch, Cisco Routers (2800, 2900, 7200).</li>
-            <li><span class='specifier'>Control Plane --</span> VTP, STP, EIGRP.</li>
-            <li><span class='specifier'>Management/Monitoring --</span> Cisco Works 2000, Cisco Prime Infrastructure, Zabbix, ManageEngine Netflow Analyzer.</li>
-            <li><span class='specifier'>Data Plane --</span> ARP, DHCP, IP, TCP, UDP, HTTP, DNS.</li>
-          </ul>
-        </td>
-      </tr>
-
-      <tr><th>Security</th>
-        <td>
-          <ul>
-            <li><span class='specifier'>Hardware --</span> Mcafee Stonegate Firewall, Palo Alto NGFW, Cisco Firewalls (FWSM, PIX), Cisco VPN Concentrator 3000.</li>
-            <li><span class='specifier'>Technologies --</span> IPSEC VPN's, SSL.</li>
-            <li><span class='specifier'>Software/Tools --</span> nmap, openssl, Splunk, Nessus, Metasploit Framework.</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </div>
-</section>
+{% include cv/languages.html %}
+{% include cv/skills.html %}
