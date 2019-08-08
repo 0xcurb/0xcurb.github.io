@@ -2,35 +2,12 @@
 layout: default
 title: CV
 ---
-{% include cv-header.html %}
-{% include contact-card.html %}
-{% include cv-summary.html %}
-
-<section id='experience'>
-	<div class='section-title'>Experience</div>
-	<div class='section-content'>
-		{% include cv/jobs.html %}
-	</div>
-</section>
-
-
-<section id='education'>
-	<div class='section-title'>Education</div>
-	<div class='section-content'>
-		Bachelor of Science, Ain Shams University in Cairo-Egypt, faculty of Engineering — Computer and Systems Engineering, 2005 (Grade: Good).
-	</div>
-</section>
-
-
-
-<section id='languages'>
-	<div class='section-title'>Languages</div>
-	<div class='section-content'>
-		<ul>
-			<li><span class='specifier'>Arabic, English</span></li>
-		</ul>
-	</div>
-</section>
+{% include cv/header.html %}
+{% include cv/contact.html %}
+{% include cv/summary.html %}
+{% include cv/jobs.html %}
+{% include cv/education.html %}
+{% include cv/languages.html %}
 
 
 
