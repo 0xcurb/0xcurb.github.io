@@ -6,14 +6,19 @@
 
 {% assign jobs = jobs | sort: "offset" | reverse %}
 
-<table id='jobs'>
-{% for job in jobs %}
-  <tr class="job-title">
-    <th colspan='2'>{{ job.title }} at {{ job.company }}, {{ job.location }} {{ job.start }} => {{ job.end }}</th>
-  </tr>
-  <tr class='job-resp'><td>{{ job.description }}</td></tr>
-  {% if forloop.last == false %}
-  <tr class='sep'><td></td></tr>
-  {% endif %}
-{% endfor %}
-</table>
+<section id='experience'>
+	<div class='section-title'>Experience</div>
+	<div class='section-content'>
+    <table id='jobs'>
+    {% for job in jobs %}
+      <tr class="job-title">
+        <th colspan='2'>{{ job.title }} at {{ job.company }}, {{ job.location }} {{ job.start }} => {{ job.end }}</th>
+      </tr>
+      <tr class='job-resp'><td>{{ job.description }}</td></tr>
+      {% if forloop.last == false %}
+      <tr class='sep'><td></td></tr>
+      {% endif %}
+    {% endfor %}
+    </table>
+  </div>
+</section>
