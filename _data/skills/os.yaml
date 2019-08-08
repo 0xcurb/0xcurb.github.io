@@ -1,0 +1,8 @@
+offset: 1
+area: Operating Systems
+categories:
+  - name: Linux
+    description: Advanced user, moderate administrator.
+    
+  - name: OSX
+    description: Advanced user.
