@@ -1,0 +1,11 @@
+offset: 4
+area: Security
+categories:
+  - name: Hardware
+    description: "Mcafee Stonegate Firewall, Palo Alto NGFW, Cisco Firewalls (FWSM, PIX), Cisco VPN Concentrator 3000."
+    
+  - name: Technologies
+    description: IPSEC VPN's, SSL.
+    
+  - name: Software/Tools
+    description: nmap, openssl, Splunk, Nessus, Metasploit Framework.
