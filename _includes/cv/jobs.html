@@ -4,8 +4,10 @@
   {% assign jobs = jobs | push: job[1] %}
 {% endfor %}
 
+{% assign jobs = jobs | sort: "offset" | reverse %}
+
 <table id='jobs'>
-{% for job in jobs | sort: "offset" | reverse %}
+{% for job in jobs %}
   <tr class="job-title"><th colspan='2'>{{ job.title }} at {{ job.company }}, {{ job.location }} {{ job.start }} => {{ job.end }}</th></tr>
 {% endfor %}
 </table>
