@@ -1,0 +1,14 @@
+offset: 3
+area: Networking
+categories:
+  - name: Hardware
+    description: "Cisco LAN Switches, Cisco 6500 Core Switch, Cisco Routers (2800, 2900, 7200)."
+    
+  - name: Control Plane
+    description: VTP, STP, EIGRP.
+    
+  - name: Management/Monitoring
+    description: Cisco Works 2000, Cisco Prime Infrastructure, Zabbix, ManageEngine Netflow Analyzer.
+    
+  - name: Data Plane
+    description: ARP, DHCP, IP, TCP, UDP, HTTP, DNS.
