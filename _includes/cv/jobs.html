@@ -5,7 +5,7 @@
 {% endfor %}
 
 <table id='jobs'>
-{% for job in jobs | sort: "offset" %}
+{% for job in site.data.jobs | sort: "offset" %}
   <tr class="job-title"><th colspan='2'>{{ job.title }} at {{ job.company }}, {{ job.location }} {{ job.start }} => {{ job.end }}</th></tr>
 {% endfor %}
 </table>
