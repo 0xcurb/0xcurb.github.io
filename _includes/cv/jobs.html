@@ -1,5 +1,5 @@
 {% assign jobs = site.data.jobs %}
-{% assign js = "" | split "," %}
+{% assign js = "" | split: "," %}
 
 {% for job in jobs %}
   {% assign js = js | push: job[1] %}
