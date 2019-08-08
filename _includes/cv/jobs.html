@@ -2,7 +2,7 @@
 {% assign js = "" | split "," %}
 
 {% for job in jobs %}
-  {% assign js = js | push job[1] %}
+  {% assign js = js | push: job[1] %}
 {% endfor %}
 
 <table id='jobs'>
