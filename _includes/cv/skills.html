@@ -1,0 +1,26 @@
+{% assign skills = "" | split: "," %}
+
+{% for skill in site.data.skills %}
+  {% assign skills = skills | push: skill[1] %}
+{% endfor %}
+
+{% assign skills = skills | sort: "offset" %}
+
+<section id='tech-skills'>
+	<div class='section-title'>Technical Qualifications</div>
+	<div class='section-content'>
+		<table id='skills'>
+    {% for skill in skills %}
+			<tr><th>{{ skill.area }}</th>
+				<td>
+					<ul>
+          {% for category in skill.categories %}
+						<li><span class='specifier'>{{ category.name }} --</span> {{ category.description }}</li>
+          {% endfor %}
+					</ul>
+				</td>
+			</tr>
+    {% endfor %}
+		</table>
+	</div>
+</section>
