@@ -1,0 +1,8 @@
+offset: 2
+area: Programming
+categories:
+  - name: Languages
+    description: Python, Ruby, Bash, Java, Javascript.
+    
+  - name: Frameworks/SDK's
+    description: boto, Django, Google App Engine SDK.
