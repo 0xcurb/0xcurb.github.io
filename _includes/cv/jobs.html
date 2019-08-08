@@ -1,12 +1,11 @@
-{% assign jobs = site.data.jobs %}
-{% assign js = "" | split: "," %}
+{% assign jobs = "" | split: "," %}
 
-{% for job in jobs %}
-  {% assign js = js | push: job[1] %}
+{% for job in site.data.jobs %}
+  {% assign jobs = jobs | push: job[1] %}
 {% endfor %}
 
 <table id='jobs'>
-{% for job in js %}
+{% for job in jobs | sort: "offset" %}
   <tr class="job-title"><th colspan='2'>{{ job.title }} at {{ job.company }}, {{ job.location }} {{ job.start }} => {{ job.end }}</th></tr>
 {% endfor %}
 </table>
