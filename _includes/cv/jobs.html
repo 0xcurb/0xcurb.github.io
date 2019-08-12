@@ -15,7 +15,7 @@
         <th colspan='2'>{{ job.title }} at {{ job.company }}, {{ job.location }} {{ job.start }} => {{ job.end }}</th>
       </tr>
       <tr class='job-resp'><td>{{ job.description }}</td></tr>
-      
+
       {% if job.tech %}
 			{% assign end = job.end | downcase %}
   			{% if end != "current" %}
@@ -29,7 +29,7 @@
       {% endif %}
 
       {% if job.details %}
-      <tr class='job-resp'><td><span class="specifier">{{ work_spec }}</span></td>
+      <tr class='job-resp'><th><span class="specifier">{{ work_spec }}</span></th>
         <td><ul class="job-details">
           {% for detail in job.details %}
           <li>- {{ detail }}</li>
