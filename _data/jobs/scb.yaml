@@ -5,6 +5,7 @@ start: June, 2008
 end: October, 2015
 offset: 4
 description: I was part of the team that manages the network and security infrastructure for the bank.
+tech: TCP/IP, Cisco L2/L3 devices, Zabbix network monitoring, Cisco Prime Infrastructure, Apache/Lighttpd servers, Python
 details:
   - Worked on the design of the network and security infrastructure.
   - Ran internal training for IT staff to spread the knowledge in the networking and security fields.
