@@ -15,13 +15,29 @@
         <th colspan='2'>{{ job.title }} at {{ job.company }}, {{ job.location }} {{ job.start }} => {{ job.end }}</th>
       </tr>
       <tr class='job-resp'><td>{{ job.description }}</td></tr>
+      
+      {% if job.tech %}
 			{% assign end = job.end | downcase %}
-			{% if end != "current" %}
-				{% assign spec = "used" %}
-			{% else %}
-				{% assign spec = "using" %}
-			{% endif %}
-			<tr class='job-resp'><td><span class="specifier">{{ spec }}</span> {{ job.tech }}</td></tr>
+  			{% if end != "current" %}
+  				{% assign tech_spec = "Used" %}
+          {% assign work_spec = "Worked on" %}
+  			{% else %}
+  				{% assign tech_spec = "Using" %}
+          {% assign work_spec = "Working on" %}
+  			{% endif %}
+			<tr class='job-resp'><td><span class="specifier">{{ tech_spec }}</span> {{ job.tech }}</td></tr>
+      {% endif %}
+
+      {% if job.details %}
+      <tr class='job-resp'><td><span class="specifier">{{ work_spec }}</span></td>
+        <td><ul class="job-details">
+          {% for detail in job.details %}
+          <li>- {{ detail }}</li>
+          {% endfor %}
+        </ul></td>
+      </tr>
+      {% endif %}
+
       {% if forloop.last == false %}
       <tr class='sep'><td></td></tr>
       {% endif %}

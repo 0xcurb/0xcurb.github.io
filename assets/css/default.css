@@ -2,6 +2,10 @@
 	font-weight: bold;
 }
 
+.job-details{
+	list-style-type: none;
+}
+
 table{
 	width: 100%;
 	font-size: inherit;
