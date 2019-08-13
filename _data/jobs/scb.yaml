@@ -5,7 +5,7 @@ start: June, 2008
 end: October, 2015
 offset: 4
 description: I was part of the team that manages the network and security infrastructure for the bank.
-tech: TCP/IP, Cisco L2/L3 devices, Stonegate firewall, Palo Alto firewall, Zabbix network monitoring, Cisco Prime Infrastructure, Apache/Lighttpd servers, Python
+tech: TCP/IP, Cisco L2/L3 devices, Stonegate firewall, Palo Alto firewall, Zabbix network monitoring, Cisco Prime Infrastructure, Apache/Lighttpd servers, Python.
 work: designing and implementing network and security infrastructure, deploying open source software for monitoring, writing a few tools and extensions to automate processes like discovering devices and backing them up and config audit, virtualisation using vmware.
 details:
   - Worked on the design of the network and security infrastructure.
