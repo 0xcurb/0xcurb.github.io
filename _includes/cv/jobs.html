@@ -28,7 +28,10 @@
       {% if job.tech %}
 			<tr class='job-resp'><td><span class="specifier">{{ tech_spec }}</span> {{ job.tech }}</td></tr>
       {% endif %}
-
+			
+      {% if job.work %}
+			<tr class='job-resp'><td><span class="specifier">{{ work_spec }}</span> {{ job.work }}</td></tr>
+      {% endif %}
       {% if forloop.last == false %}
       <tr class='sep'><td></td></tr>
       {% endif %}
