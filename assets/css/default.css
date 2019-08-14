@@ -119,8 +119,16 @@ header{
         display: none;
     }
 
+    #contact-card{
+		margin-bottom: 2mm;
+	}
+
 	th{
 		vertical-align: top;
+	}
+
+	section{
+		margin-bottom: 4mm;
 	}
 
 	#tech-skills{
