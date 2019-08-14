@@ -2,6 +2,10 @@
 	font-weight: bold;
 }
 
+a:link{
+	text-decoration: none;
+}
+
 .job-details{
 	list-style-type: none;
 	text-align: left;
