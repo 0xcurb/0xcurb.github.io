@@ -12,3 +12,5 @@ title: bookmarks
 [signal v. noise](https://m.signalvnoise.com/) (blog)
 
 [architecture of open source applications](http://www.aosabook.org/en/index.html) (read)
+
+[Anatomy of a system call, part 1](https://lwn.net/Articles/604287/) (read)
