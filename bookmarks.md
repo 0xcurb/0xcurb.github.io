@@ -10,3 +10,5 @@ title: bookmarks
 [the morning paper](https://blog.acolyer.org/) (blog)
 
 [signal v. noise](https://m.signalvnoise.com/) (blog)
+
+[architecture of open source applications](http://www.aosabook.org/en/index.html) (read)
