@@ -14,3 +14,5 @@ title: bookmarks
 [architecture of open source applications](http://www.aosabook.org/en/index.html) (read)
 
 [Anatomy of a system call, part 1](https://lwn.net/Articles/604287/) (read)
+
+[The Linux Kernel](http://www.science.unitn.it/~fiorella/guidelinux/tlk/node5.html)
