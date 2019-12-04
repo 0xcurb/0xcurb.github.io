@@ -16,3 +16,5 @@ title: bookmarks
 [Anatomy of a system call, part 1](https://lwn.net/Articles/604287/) (read)
 
 [The Linux Kernel](http://www.science.unitn.it/~fiorella/guidelinux/tlk/node5.html) (read)
+
+[quantum computing](https://quantum.country/qcvc) (read)
