@@ -18,3 +18,5 @@ title: bookmarks
 [The Linux Kernel](http://www.science.unitn.it/~fiorella/guidelinux/tlk/node5.html) (read)
 
 [quantum computing](https://quantum.country/qcvc) (read)
+
+[my business card runs linux](https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/) (read)
