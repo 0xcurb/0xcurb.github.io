@@ -20,3 +20,5 @@ title: bookmarks
 [quantum computing](https://quantum.country/qcvc) (read)
 
 [my business card runs linux](https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/) (read)
+
+[rdbms, nosql, blockchains internals](https://hackernoon.com/relational-nosql-ledger-databases-work-not-permissioned-blockchains-9ccaef7b3139)
