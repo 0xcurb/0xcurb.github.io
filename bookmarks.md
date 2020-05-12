@@ -21,4 +21,6 @@ title: bookmarks
 
 [my business card runs linux](https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/) (read)
 
-[rdbms, nosql, blockchains internals](https://hackernoon.com/relational-nosql-ledger-databases-work-not-permissioned-blockchains-9ccaef7b3139)
+[rdbms, nosql, blockchains internals](https://hackernoon.com/relational-nosql-ledger-databases-work-not-permissioned-blockchains-9ccaef7b3139) (read)
+
+[structure and interpretation of computer programms](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_start) (book)
